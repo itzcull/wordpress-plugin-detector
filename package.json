@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-plugin-scanner",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn node dist/index.js",
+    "build": "yarn tsc",
+    "test": "yarn ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "node-fetch": "^3.1.0",
+    "rss-parser": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/dom-parser": "^0.1.1",
+    "@types/filesystem": "^0.0.32",
+    "@types/node": "^16.11.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
